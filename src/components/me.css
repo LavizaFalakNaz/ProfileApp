@@ -1,0 +1,30 @@
+.content{
+  padding-left:15px;
+}
+
+.about h3{
+  color:green;
+}
+
+.about h5{
+  font-size:18px;
+}
+
+.about h6{
+  font-size: 15px;
+  font-weight:none;
+  padding-right: 0px;
+  margin: 0px;  
+}
+
+.portfolio h3{
+  color:green;
+}
+
+.portfolio h5{
+  font-size:18px;
+}
+
+img{
+  border: 0.5px solid #999;
+}
