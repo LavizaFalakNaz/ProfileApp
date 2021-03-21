@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,600;0,800;0,900;1,700&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif!important;
+
+}
+div#container {
+    width: 1024px;
+    font-family: 'Nunito Sans', sans-serif!important;
+    margin: 30px auto;
+}
+
+header{
+  width:100%;
+  height:32px;
+  background-color: green;
+}
+
+.quoteoftheday {
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: baseline;
+    width: 300px;
+    color:white;
+    padding-left:15px;
+}
+
+.name {
+    width: 720px;
+    padding-right:10px;
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+}
+
+article {
+  padding:40px 15px;
+}
+
+.quote h1 {
+    font-family: 'Nunito Sans', sans-serif!important;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0px;
+    font-weight:bold;
+}
+
+.quoteby{
+    padding:5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.quoteby h4 {
+    font-size: 31px;
+    margin: 0px;
+    padding-top:5px;
+    font-weight:bold;
+    color:green;
+}
+
+.quoteby img{
+    border-radius:50%;
+    margin-right:15px;
+    border:none;
+}
+
+.skills {
+    width: 250px;
+    height:100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+.content p {
+    font-size: 19px;
+    padding-right: 27px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.skills h6 {
+    font-size: 12px;
+    margin: 0px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #666;
+    border-bottom: 1px solid #666;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight:bold;
+    display: inline-block;
+}
+
+.skills ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.skills ul li {
+    list-style: none;
+    text-align:center;
+    text-decoration:none;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    padding-left:10px;
+    padding-top:5px;
+}
+.skills ul li a,.content,.content a {
+    color:black;
+    text-decoration:none;
+} 
+
+.skills ul li:hover{
+  background-color: #eee;
+}
+
+.skills ul li a:hover{
+color:green;
+}
+
+@media only screen and (max-width:1024px) {
+    div#container {
+        width:500px;
+    }
+    .quoteoftheday {
+        width: 100%;
+    }
+    .name {
+        width: 100%;
+        text-align: left;
+    }
+    .quote h1 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .quoteby h4 {
+        font-size: 16px;
+        margin-top: 15px;
+        color:green;
+    }
+    article {
+        padding: 50px 0px;
+    }
+    .skills {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .content {
+        width: 100%;
+    }
+    .content p {
+        font-size: 17px;
+        padding-right: 0px;
+        margin: 0px;
+    }
+     
+}
